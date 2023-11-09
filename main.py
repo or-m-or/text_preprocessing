@@ -68,9 +68,6 @@ def modified_contents(company_name, contents) -> str:
         contents = contents.replace('####', '\n')    
         contents = re.sub(r'(제\d+조 \(.*\))', r'\n\1', contents)
 
-
-
-
     return contents
 
 
